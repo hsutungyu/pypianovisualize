@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1560</width>
+    <height>553</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AIST2010</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>470</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>San Francisco Text</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>None</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI36">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI38">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI40">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI43">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI45">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI47">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI41">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI37">
+    <property name="geometry">
+     <rect>
+      <x>81</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI39">
+    <property name="geometry">
+     <rect>
+      <x>111</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI42">
+    <property name="geometry">
+     <rect>
+      <x>171</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI44">
+    <property name="geometry">
+     <rect>
+      <x>202</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI46">
+    <property name="geometry">
+     <rect>
+      <x>231</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI57">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI51">
+    <property name="geometry">
+     <rect>
+      <x>321</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI50">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI58">
+    <property name="geometry">
+     <rect>
+      <x>441</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI53">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI54">
+    <property name="geometry">
+     <rect>
+      <x>381</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI56">
+    <property name="geometry">
+     <rect>
+      <x>412</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI59">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI55">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI49">
+    <property name="geometry">
+     <rect>
+      <x>291</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI48">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI52">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI71">
+    <property name="geometry">
+     <rect>
+      <x>659</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI69">
+    <property name="geometry">
+     <rect>
+      <x>629</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI63">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI62">
+    <property name="geometry">
+     <rect>
+      <x>509</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI66">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI67">
+    <property name="geometry">
+     <rect>
+      <x>599</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI65">
+    <property name="geometry">
+     <rect>
+      <x>569</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI60">
+    <property name="geometry">
+     <rect>
+      <x>479</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI64">
+    <property name="geometry">
+     <rect>
+      <x>539</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI68">
+    <property name="geometry">
+     <rect>
+      <x>621</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI70">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI61">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI83">
+    <property name="geometry">
+     <rect>
+      <x>869</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI81">
+    <property name="geometry">
+     <rect>
+      <x>839</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI75">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI74">
+    <property name="geometry">
+     <rect>
+      <x>719</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI78">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI79">
+    <property name="geometry">
+     <rect>
+      <x>809</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI77">
+    <property name="geometry">
+     <rect>
+      <x>779</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI72">
+    <property name="geometry">
+     <rect>
+      <x>689</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI76">
+    <property name="geometry">
+     <rect>
+      <x>749</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI80">
+    <property name="geometry">
+     <rect>
+      <x>831</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI82">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI73">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI95">
+    <property name="geometry">
+     <rect>
+      <x>1079</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI93">
+    <property name="geometry">
+     <rect>
+      <x>1049</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI87">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI86">
+    <property name="geometry">
+     <rect>
+      <x>929</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI90">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI91">
+    <property name="geometry">
+     <rect>
+      <x>1019</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI89">
+    <property name="geometry">
+     <rect>
+      <x>989</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI84">
+    <property name="geometry">
+     <rect>
+      <x>899</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI88">
+    <property name="geometry">
+     <rect>
+      <x>959</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI92">
+    <property name="geometry">
+     <rect>
+      <x>1041</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI94">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI85">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI107">
+    <property name="geometry">
+     <rect>
+      <x>1289</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI105">
+    <property name="geometry">
+     <rect>
+      <x>1259</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI99">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI98">
+    <property name="geometry">
+     <rect>
+      <x>1139</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI102">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI103">
+    <property name="geometry">
+     <rect>
+      <x>1229</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI101">
+    <property name="geometry">
+     <rect>
+      <x>1199</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI96">
+    <property name="geometry">
+     <rect>
+      <x>1109</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI100">
+    <property name="geometry">
+     <rect>
+      <x>1169</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI104">
+    <property name="geometry">
+     <rect>
+      <x>1251</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI106">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI97">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI119">
+    <property name="geometry">
+     <rect>
+      <x>1499</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI117">
+    <property name="geometry">
+     <rect>
+      <x>1469</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI111">
+    <property name="geometry">
+     <rect>
+      <x>1370</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI110">
+    <property name="geometry">
+     <rect>
+      <x>1349</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI114">
+    <property name="geometry">
+     <rect>
+      <x>1430</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI115">
+    <property name="geometry">
+     <rect>
+      <x>1439</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI113">
+    <property name="geometry">
+     <rect>
+      <x>1409</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI108">
+    <property name="geometry">
+     <rect>
+      <x>1319</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI112">
+    <property name="geometry">
+     <rect>
+      <x>1379</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI116">
+    <property name="geometry">
+     <rect>
+      <x>1461</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI118">
+    <property name="geometry">
+     <rect>
+      <x>1490</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI109">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI33">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI35">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI34">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIDI120">
+    <property name="geometry">
+     <rect>
+      <x>1530</x>
+      <y>330</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white} QPushButton::pressed {background-color: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>440</y>
+      <width>461</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>San Francisco Text</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Chord Identifier and Visualizer on Piano</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>470</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>San Francisco Text</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Chord that is being played: </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="audioSelect">
+    <property name="geometry">
+     <rect>
+      <x>1330</x>
+      <y>440</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>San Francisco Text</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Audio File</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>440</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>San Francisco Text</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Audio File Selected:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="audioName">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>440</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>San Francisco Text</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>None</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="audioPlay">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>470</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>San Francisco Text</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Play w/ Visual</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="resetButton">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>450</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>San Francisco Text</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Reset</string>
+    </property>
+   </widget>
+   <zorder>MIDI40</zorder>
+   <zorder>MIDI36</zorder>
+   <zorder>MIDI43</zorder>
+   <zorder>MIDI47</zorder>
+   <zorder>MIDI41</zorder>
+   <zorder>MIDI38</zorder>
+   <zorder>MIDI45</zorder>
+   <zorder>label</zorder>
+   <zorder>MIDI57</zorder>
+   <zorder>MIDI50</zorder>
+   <zorder>MIDI53</zorder>
+   <zorder>MIDI59</zorder>
+   <zorder>MIDI55</zorder>
+   <zorder>MIDI48</zorder>
+   <zorder>MIDI52</zorder>
+   <zorder>MIDI71</zorder>
+   <zorder>MIDI69</zorder>
+   <zorder>MIDI62</zorder>
+   <zorder>MIDI67</zorder>
+   <zorder>MIDI65</zorder>
+   <zorder>MIDI60</zorder>
+   <zorder>MIDI64</zorder>
+   <zorder>MIDI83</zorder>
+   <zorder>MIDI81</zorder>
+   <zorder>MIDI74</zorder>
+   <zorder>MIDI79</zorder>
+   <zorder>MIDI77</zorder>
+   <zorder>MIDI72</zorder>
+   <zorder>MIDI76</zorder>
+   <zorder>MIDI95</zorder>
+   <zorder>MIDI93</zorder>
+   <zorder>MIDI86</zorder>
+   <zorder>MIDI91</zorder>
+   <zorder>MIDI89</zorder>
+   <zorder>MIDI84</zorder>
+   <zorder>MIDI88</zorder>
+   <zorder>MIDI107</zorder>
+   <zorder>MIDI105</zorder>
+   <zorder>MIDI98</zorder>
+   <zorder>MIDI103</zorder>
+   <zorder>MIDI101</zorder>
+   <zorder>MIDI96</zorder>
+   <zorder>MIDI100</zorder>
+   <zorder>MIDI119</zorder>
+   <zorder>MIDI117</zorder>
+   <zorder>MIDI110</zorder>
+   <zorder>MIDI115</zorder>
+   <zorder>MIDI113</zorder>
+   <zorder>MIDI108</zorder>
+   <zorder>MIDI112</zorder>
+   <zorder>MIDI70</zorder>
+   <zorder>MIDI85</zorder>
+   <zorder>MIDI49</zorder>
+   <zorder>MIDI68</zorder>
+   <zorder>MIDI99</zorder>
+   <zorder>MIDI82</zorder>
+   <zorder>MIDI97</zorder>
+   <zorder>MIDI44</zorder>
+   <zorder>MIDI51</zorder>
+   <zorder>MIDI63</zorder>
+   <zorder>MIDI92</zorder>
+   <zorder>MIDI61</zorder>
+   <zorder>MIDI66</zorder>
+   <zorder>MIDI80</zorder>
+   <zorder>MIDI87</zorder>
+   <zorder>MIDI39</zorder>
+   <zorder>MIDI42</zorder>
+   <zorder>MIDI109</zorder>
+   <zorder>MIDI46</zorder>
+   <zorder>MIDI54</zorder>
+   <zorder>MIDI94</zorder>
+   <zorder>MIDI90</zorder>
+   <zorder>MIDI58</zorder>
+   <zorder>MIDI73</zorder>
+   <zorder>MIDI56</zorder>
+   <zorder>MIDI106</zorder>
+   <zorder>MIDI75</zorder>
+   <zorder>MIDI118</zorder>
+   <zorder>MIDI78</zorder>
+   <zorder>MIDI116</zorder>
+   <zorder>MIDI104</zorder>
+   <zorder>MIDI114</zorder>
+   <zorder>MIDI37</zorder>
+   <zorder>MIDI102</zorder>
+   <zorder>MIDI111</zorder>
+   <zorder>MIDI33</zorder>
+   <zorder>MIDI35</zorder>
+   <zorder>MIDI34</zorder>
+   <zorder>MIDI120</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>audioSelect</zorder>
+   <zorder>label_4</zorder>
+   <zorder>audioName</zorder>
+   <zorder>audioPlay</zorder>
+   <zorder>resetButton</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1560</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
